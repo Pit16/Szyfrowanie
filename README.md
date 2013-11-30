@@ -1,7 +1,7 @@
 Szyfrowanie
 ===========
 
-Projekt na PRM
+Projekt na przedmiot PRM
 
 ----------------------
 autor: Piotr Katerżawa
