@@ -20,3 +20,9 @@
 # build catalog
 build/
 /Default
+
+
+# eclipse settings
+.settings/
+.project
+.cproject
