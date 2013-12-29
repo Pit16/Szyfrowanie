@@ -4,6 +4,7 @@
 /* funkcje: np/ pobierz liczbe ci¹gów; pobierz szyfrogramy
  *
  */
+#include "szyfrogram.h"
 
 int pobierz_liczbe_ciagow();
 int pobierz_szyfrogramy(szyfrogram* tablica_szyfrogramow);
