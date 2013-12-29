@@ -7,4 +7,4 @@
 #include "szyfrogram.h"
 
 int pobierz_liczbe_ciagow();
-int pobierz_szyfrogramy(szyfrogram* tablica_szyfrogramow);
+int pobierz_szyfrogramy(szyfrogram** tablica_szyfrogramow, int liczba_ciagow);

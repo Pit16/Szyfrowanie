@@ -5,6 +5,7 @@
  *      Author: PiotreK
  */
 #include<stdio.h>
+#include <stdlib.h>
 #include "konsola.h"
 
 int pobierz_liczbe_ciagow(){
@@ -21,7 +22,14 @@ int pobierz_liczbe_ciagow(){
 	return n;
 }
 
-int pobierz_szyfrogramy(szyfrogram* tablica_szyfrogramow){
+int pobierz_szyfrogramy(szyfrogram** tablica_szyfrogramow, int liczba_ciagow){
+	
+	szyfrogram* nowy = (szyfrogram*) malloc(sizeof(szyfrogram));
+	int znaki[5] = {111,222,333,444,555};
+	int ile_znakow = 5;
+	nowy->liczba_znakow = ile_znakow;
+	nowy->ciag_znakow = znaki;
+	tablica_szyfrogramow[0] = nowy;
 
 	return 0;
 }
