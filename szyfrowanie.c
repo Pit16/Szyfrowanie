@@ -10,6 +10,7 @@ int main ()
 	printf("Wypisanie pobranej liczby ciagow: %d \n", liczba_ciagow);
 	szyfrogram** tablica_szyfrogramow= (szyfrogram**) malloc(liczba_ciagow);
 	pobierz_szyfrogramy(tablica_szyfrogramow, liczba_ciagow);
+	szukanie_klucza(tablica_szyfrogramow[0]);
 
 	return 0;
 }
