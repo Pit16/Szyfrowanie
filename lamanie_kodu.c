@@ -9,6 +9,10 @@
 #include <stdlib.h>
 
 
+/*
+ * funkcja szukajaca liczby pierwszej dla danego szyfrogramu
+ * zwraca znaleziony klucz lub -1 gdy nie znaleziono
+ */
 int szukanie_klucza(szyfrogram* szyfrogram)
 {
 	int liczby_pierwsze[5]={127, 131, 137, 139, 149};
