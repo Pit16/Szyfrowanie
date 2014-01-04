@@ -12,7 +12,7 @@ int pobierz_liczbe_ciagow(){
 	int n=0;
 	while(1>0)
 	{
-		printf("Podaj liczbe ciagów \n");
+		printf("Podaj liczbe ciagow \n");
 		scanf("%d", &n);
 		if(n>0 && n<25)
 			break;

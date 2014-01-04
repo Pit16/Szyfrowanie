@@ -36,6 +36,7 @@ int szukanie_klucza(szyfrogram* szyfrogram)
 		if(i==szyfrogram->liczba_znakow)
 		{
 			printf("Znaleziono klucz, liczba szukana to %d ", klucz);
+			szyfrogram->klucz=klucz;
 			return klucz;
 		}
 		else
