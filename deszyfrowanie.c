@@ -10,6 +10,8 @@
 
 char* deszyfrowanie_wiadomosci(szyfrogram* szyfrogram)
 {
+	if(szyfrogram->klucz<0)
+		return "NIECZYTELNE";
 	int i=0;
 	int znak= 0;
 	szyfrogram->wiadomosc = (char*) malloc(szyfrogram->liczba_znakow);

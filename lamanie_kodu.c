@@ -42,6 +42,8 @@ int szukanie_klucza(szyfrogram* szyfrogram)
 		else
 			k++;
 	}
+	klucz=-1;
+	szyfrogram->klucz=klucz;
 	printf("NIECZYTELNE, brak klucza");
 	return -1;
 }
