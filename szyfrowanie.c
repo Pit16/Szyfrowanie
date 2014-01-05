@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "konsola.h"
-#include "szyfrogram.h"
 
 int main ()
 {
@@ -11,9 +10,16 @@ int main ()
 	printf("Wypisanie pobranej liczby ciagow: %d \n", liczba_ciagow);
 	szyfrogram** tablica_szyfrogramow= (szyfrogram**) malloc(liczba_ciagow);
 	pobierz_szyfrogramy(tablica_szyfrogramow, liczba_ciagow);
-	szukanie_klucza(tablica_szyfrogramow[0]);
-	char* wiadomosc = deszyfrowanie_wiadomosci(tablica_szyfrogramow[0]);
-	printf("%s", wiadomosc);
+	int i=0;
+	while(i<liczba_ciagow)
+	{
+	szyfrogram* nowy_szyfrogram=tablica_szyfrogramow[i];
+	//printf("Szyfrogram numer %d\n liczba znakow: %d ciag znakow: % klucz: %d", i, nowy_szyfrogram->liczba_znakow, nowy_szyfrogram->ciag_znakow, nowy_szyfrogram->klucz);
+	szukanie_klucza(tablica_szyfrogramow[i]);
+	char* wiadomosc = deszyfrowanie_wiadomosci(tablica_szyfrogramow[i]);
+	printf("%s\n", wiadomosc);
+	i++;
+	}
 
 	return 0;
 }
