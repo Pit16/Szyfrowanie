@@ -1,4 +1,6 @@
 //szyfrogram.h
+#ifndef SZYFROGRAM_H
+#define SZYFROGRAM_H
 
 typedef struct {
 	int liczba_znakow;		// liczba liczb trzycyfrowych w tym szyfrogramie
@@ -7,3 +9,4 @@ typedef struct {
 	char* wiadomosc;
 } szyfrogram;
 
+#endif	//SZYFROGRAM_H
