@@ -22,8 +22,8 @@ int pobierz_liczbe_ciagow(){
 	return n;
 }
 /*
- * funkcja pobiera dene do szyfrogramów z konsoli, tworz¹c nowe szyfrogramy
- * zapisuje liczbe znaków oraz tablice trzycyfrowych liczb
+ * funkcja pobiera dene do szyfrogramï¿½w z konsoli, tworzï¿½c nowe szyfrogramy
+ * zapisuje liczbe znakï¿½w oraz tablice trzycyfrowych liczb
  */
 void pobierz_szyfrogramy(szyfrogram** tablica_szyfrogramow, int liczba_ciagow){
 	int i;
@@ -59,5 +59,3 @@ void pobierz_szyfrogramy(szyfrogram** tablica_szyfrogramow, int liczba_ciagow){
 	}
 
 }
-
-// TODO: czyszczenie pamieci!

@@ -44,6 +44,5 @@ int szukanie_klucza(szyfrogram* szyfrogram)
 	}
 	klucz=-1;
 	szyfrogram->klucz=klucz;
-	printf("NIECZYTELNE, brak klucza");
-	return -1;
+	return klucz;
 }
