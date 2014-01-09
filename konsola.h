@@ -8,3 +8,4 @@
 
 int pobierz_liczbe_ciagow();
 void pobierz_szyfrogramy(szyfrogram** tablica_szyfrogramow, int liczba_ciagow);
+void wypisz_wyniki(szyfrogram** tablica_szyfrogramow, int liczba_ciagow);
